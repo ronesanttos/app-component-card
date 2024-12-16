@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1000px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 10px;
+}
+.img {
+  width: 430px;
+  height: 100%;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.info {
+  width: 460px;
+  height: 90%;
+  margin-left: 3rem;
+}
+
+.description {
+  text-align: left;
+}
+
+.description h2 {
+  color: hsl(217, 19%, 35%);
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.description p {
+  color: hsl(214, 17%, 51%);
+  font-size: 18px;
+  margin-bottom: 2.5rem;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.perfil img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.name-date span {
+  font-weight: bold;
+  color: hsl(217, 19%, 35%);
+}
+.name-date p {
+  color: hsl(214, 17%, 51%);
+  padding-top: 0.8rem;
+}
+
+.perfil button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+.hide {
+  display: none;
+}
+.list-links {
+  width: 250px;
+  height: 60px;
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  left: 68%;
+  top: 48%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-radius: 8px;
+}
+
+.list-links > div {
+  position: relative;
+  top: 65%;
+  left: -38%;
+  border-top: 20px solid hsl(217, 19%, 35%);
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+
+.list-links svg {
+  padding-left: 2rem;
+}
+
+.btn {
+    width: 40px;
+
+}
+
+svg {
+  fill: #6e8098;
+}
+
+button:hover svg,
+button:hover {
+  fill: white;
+  background-color: hsl(214, 17%, 51%);
+  cursor: pointer;
+}
+
+@media screen and (width: "480px") {
+  .container {
+    width: 470px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img {
+    width: 100%;
+  }
+}
