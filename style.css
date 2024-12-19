@@ -142,7 +142,7 @@ button:hover {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 470px;
+    width: 450px;
     height: auto;
     flex-direction: column;
     justify-content: center;
@@ -152,6 +152,9 @@ button:hover {
   }
   .img img {
     height: 250px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    
   }
   .info {
     width: 100%;
@@ -172,7 +175,6 @@ button:hover {
     width: 312px;
   }
   .perfil {
-    background-color: cadetblue;
     width: 80%;
   }
 
@@ -191,7 +193,7 @@ button:hover {
     width: 380px;
     height: 60px;
     position: absolute;
-    top: 82%;
+    top: 85%;
     left: 10%;
   }
   .list-links div {
