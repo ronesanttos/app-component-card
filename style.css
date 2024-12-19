@@ -136,6 +136,10 @@ button:hover {
   cursor: pointer;
 }
 
+.responsivo {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   .container {
     width: 470px;
@@ -192,6 +196,9 @@ button:hover {
   }
   .list-links div {
     display: none;
+  }
+  .responsivo {
+    display: inline;
   }
   .list-links .responsivo {
     border-radius: 50%;
