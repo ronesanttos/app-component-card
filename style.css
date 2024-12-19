@@ -142,10 +142,12 @@ button:hover {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 450px;
+    width: 420px;
     height: auto;
     flex-direction: column;
     justify-content: center;
+    background-color: rebeccapurple;
+    margin: 2rem;
   }
   .img {
     width: 100%;
@@ -176,6 +178,7 @@ button:hover {
   }
   .perfil {
     width: 80%;
+    margin-bottom: 2rem;
   }
 
   .perfil img {
@@ -193,8 +196,11 @@ button:hover {
     width: 380px;
     height: 60px;
     position: absolute;
-    top: 85%;
-    left: 10%;
+    top: 90%;
+    left: 8%;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .list-links div {
     display: none;
