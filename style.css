@@ -14,6 +14,7 @@ body {
   height: 450px;
   background-color: white;
   display: flex;
+  flex-direction: row;
   justify-content: left;
   align-items: center;
   border-radius: 10px;
@@ -120,8 +121,8 @@ body {
 }
 
 .btn {
-    width: 40px;
-
+  width: 40px;
+  background-color: red;
 }
 
 svg {
@@ -135,7 +136,7 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (width: "480px") {
+@media screen and (max-width: 480px) {
   .container {
     width: 470px;
     height: auto;
@@ -144,5 +145,62 @@ button:hover {
   }
   .img {
     width: 100%;
+  }
+  .img img {
+    height: 250px;
+  }
+  .info {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    padding: 1rem 2.5rem;
+  }
+  .description h2 {
+    font-size: 25px;
+  }
+  .description p {
+    width: 312px;
+  }
+  .perfil {
+    background-color: cadetblue;
+    width: 80%;
+  }
+
+  .perfil img {
+    width: 60px;
+    height: 60px;
+  }
+  .name-date p {
+    padding-top: 0.5rem;
+  }
+  .perfil button {
+    margin-right: 1rem;
+  }
+  .list-links {
+    justify-content: space-between;
+    width: 380px;
+    height: 60px;
+    position: absolute;
+    top: 82%;
+    left: 10%;
+  }
+  .list-links div {
+    display: none;
+  }
+  .list-links .responsivo {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: none;
+  }
+  .responsivo svg {
+    padding-left: 0;
+    margin: 0 auto;
   }
 }
