@@ -146,7 +146,6 @@ button:hover {
     height: auto;
     flex-direction: column;
     justify-content: center;
-    background-color: rebeccapurple;
     margin: 2rem;
   }
   .img {
@@ -193,10 +192,10 @@ button:hover {
   }
   .list-links {
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     height: 100px;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 5%;
     border-radius: 0px;
     border-bottom-left-radius: 10px;
